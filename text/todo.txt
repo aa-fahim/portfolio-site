@@ -1,0 +1,4 @@
+1. Second Button in HeroSection should open resume as pdf in new tab
+2. Contact me page
+3. About me page
+4. uninstall 'reactstrap' and find out to delete other unused libraries (not that there are at this point)
