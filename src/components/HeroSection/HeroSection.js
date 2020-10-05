@@ -5,9 +5,14 @@ import './HeroSection.css';
 
 function HeroSection() {
 
-  const handleClick = () => {
-    window.open('/resume', '_blank')
+  const scrollDown = () => {
+
   }
+
+  const openResume = () => {
+    window.open('Ashif_Fahim_Resume.pdf', '_blank')
+  }
+
   return (
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
@@ -19,13 +24,13 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          See Projects
         </Button>
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={handleClick}
+          onClick={openResume}
         >
           Know More <i className='fa fa-download' />
         </Button>

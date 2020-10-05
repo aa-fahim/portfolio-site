@@ -37,18 +37,15 @@ export default function Contact() {
         <p className='header'>Contact Me</p>
         <Form>
           <FormGroup col className='form-group'>
-            <Label size="lg">Name</Label>
-            <Row sm={10}>
-              <Input
-                type="text"
-                className='form-box1'
-                name="name"
-                value={name}
-                onChange={handleName}
-                placeholder='Name'
-                bsSize='lg'
-              />
-            </Row>
+            <Label>Name</Label>
+            <Input
+              type="text"
+              className='form-box1'
+              name="name"
+              value={name}
+              onChange={handleName}
+              placeholder='Name'
+            />
           </FormGroup>
           <FormGroup className='form-group'>
             <Label>Email</Label>

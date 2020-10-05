@@ -10,35 +10,35 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/img-10.jpg'
+              text='Charging Station for Electric Vehicles'
+              label='Embedded Development'
+              path='/posts/1'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/img-12.jpg'
+              text='Product Scanner Mobile App'
+              label='Mobile Development'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/img-11.jpg'
+              text='Image Processing Filters'
+              label='Python Scripting'
+              path='/posts/2'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/img-13.jpg'
+              text='Banking System'
+              label='Java Project'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/img-14.jpg'
+              text='Sports Quiz Mobile App'
+              label='Mobile Development'
               path='/sign-up'
             />
           </ul>
