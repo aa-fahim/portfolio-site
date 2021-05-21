@@ -1,0 +1,73 @@
+.form-container {
+  animation: 0.5s ease-out 0s 1 slideInFromBottom;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.header {
+  font-size: 5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  width: 400px;
+}
+
+.form-label {
+  margin: 5px;
+}
+
+.form-box1 {
+  font-size: 1rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.form-box2 {
+  font-size: 1rem;
+  height: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.form-button {
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(39, 134, 218);
+  border-radius: 5px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.form-box1:focus {
+  background-color: lightblue;
+}
+
+.form-box1:focus-visible {
+  outline: none;
+}
+
+.form-box2:focus {
+  background-color: lightblue;
+}
+
+.form-box2:focus-visible {
+  outline: none;
+}

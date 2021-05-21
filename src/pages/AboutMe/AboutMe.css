@@ -1,0 +1,27 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    animation: 0.5s ease-out 0s 1 slideInFromBottom;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+  
+.text-header {
+    font-size: 5rem;
+}
+
+.text-paragraph {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+

@@ -2,9 +2,10 @@ import React from 'react';
 import './Cards.css';
 import CardItem from '../CardItem/CardItem';
 
-function Cards() {
+const Cards = ({reference}) => {
+
   return (
-    <div className='cards'>
+    <div className='cards' ref={reference}>
       <h1>Check out some of my projects!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -13,13 +14,13 @@ function Cards() {
               src='images/img-10.jpg'
               text='Charging Station for Electric Vehicles'
               label='Embedded Development'
-              path='/posts/1'
+              path='/project/1'
             />
             <CardItem
               src='images/img-12.jpg'
               text='Product Scanner Mobile App'
               label='Mobile Development'
-              path='/services'
+              path='/project/2'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,19 +28,19 @@ function Cards() {
               src='images/img-11.jpg'
               text='Image Processing Filters'
               label='Python Scripting'
-              path='/posts/2'
+              path='/project/3'
             />
             <CardItem
               src='images/img-13.jpg'
               text='Banking System'
               label='Java Project'
-              path='/products'
+              path='/project/4'
             />
             <CardItem
               src='images/img-14.jpg'
               text='Sports Quiz Mobile App'
               label='Mobile Development'
-              path='/sign-up'
+              path='/project/5'
             />
           </ul>
         </div>
@@ -48,4 +49,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default React.forwardRef(Cards);

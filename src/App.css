@@ -6,8 +6,7 @@
 }
 
 .home,
-.projects,
-.about-me,
+.blog,
 .contact {
   display: flex;
   height: 100vh;
@@ -15,7 +14,7 @@
   justify-content: center;
 }
 
-.projects {
+.blog {
   background-image: url('/images/img-2.jpg');
   background-position: center;
   background-size: cover;
@@ -27,9 +26,14 @@
 .about-me {
   background-image: url('/images/img-7.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .contact {
@@ -37,7 +41,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #fff;
+  flex-direction: column;
 }
 
 .posts {
@@ -49,4 +55,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 50px 0;
 }

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.text-header {
+    margin: 15px 0;
+    font-size: 3rem;
+}
+
+.text-paragraph {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.prototype-img {
+    display: flex;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
