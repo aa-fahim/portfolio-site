@@ -5,6 +5,7 @@
     justify-content: center;
     width: 1000px;
     animation: 0.5s ease-out 0s 1 slideInFromBottom;
+    height: 100%;
 }
 
 @keyframes slideInFromBottom {
